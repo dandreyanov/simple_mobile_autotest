@@ -44,7 +44,7 @@ public class LoginTests extends TestBase {
         AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
                 new URL("http://hub.browserstack.com/wd/hub"), caps);
 
-
+        open();
         /* Write your Custom code here */
         $(MobileBy.id("ru.wsoft.push.app:id/next_btn")).click();
         //Close recommendations
